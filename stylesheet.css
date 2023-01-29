@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url("../高専質問箱/images/top1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+body::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:aliceblue;
+    opacity: 0.5;
+    z-index: -1;
+}
+#title1{
+    margin: 50px;
+    margin-right: auto;
+
+}
+
+h1{
+    font-size: 55px;
+    color: #ffffff;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+header #nav ul{
+    list-style: none;
+    font-size: 30px;
+
+}
+
+header #nav ul li{
+    font-size: 40px;
+    display: inline-block;  /*横並び*/
+}
+
+header #nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    margin-left: 30px;
+    font-weight: 600;  
+    transition: all 0.3s; /*時差*/
+}
+
+header #nav ul li a:hover{ /*カーソルがあったら色が変わる*/
+    color:black;
+}
+
+footer{
+    position: absolute;/*絶対位置*/
+    bottom: 0;/*一番下に固定*/
+    width: 100%;
+    background-color: #461a41;
+    height: 80px;
+    line-height: 80px;
+}
+.box_1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#box_2{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#box_3{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: whitesmoke;
+}
+#box_2 a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+#box_3 a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+#box_2 a:hover{
+    color:black;
+    font-weight: 600;
+}
+#box_3 a:hover{
+    color:black;
+    font-weight: 600;
+}
+
+
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+main h2{
+    font-size: 75px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    height: 145px;
+    /*background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);*/
+    background: linear-gradient(to right,yellow,#ffffff,#fff100,#009944);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 500%;
+    font-weight: bold;
+    display: inline-block;
+
+
+}
+
+main p{
+    font-size: 40px;
+    font-weight: 600;
+    height: 150px;
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,yellow,#f39800,#e60000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.button-area .first{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+}
+.button-area .roguin{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-area .first{
+    margin-right: 85px;
+    text-align: center;
+}
+.button-area .first:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.button-area .roguin:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+footer{
+    background-color:rgba(85, 23, 23, 0.253);
+    font-size: 60px;
+    height: 85px;
+    line-height: 80px;
+    justify-content: center;
+    
+    text-align: center;
+    color:aliceblue;
+}
