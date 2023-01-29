@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="registration" content="アカウント登録をしよう">
+        <title>ようこそ！高専に興味がある方々</title>
+        <link href="kyoumi.css"  rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="contact-form">
+            <p class="title">匿名アカウント登録</p>
+
+            <form action="" method="post">
+                <div class="item">
+                    <label class="label">ニックネーム:</label>
+                    <input type="text" class="inputs" placeholder="カッチー" name="name" required/>
+                </div>
+
+                <div class="item">
+                    <label class="label">気になる高専名:</label>
+                    <input type="text" class="inputs" placeholder="仙台高専広瀬キャンパス" name="syozoku1" required/>
+                </div>
+
+
+                <div class="item">
+                    <p class="label">性別:</p>
+                    <div class="inputs">
+                        <input type="radio" name="sex" id="man"  value="sex" required/>
+                        <label for="man">男性</label> 
+
+                        <input type="radio" name="sex" id="woman"  value="sex"/>
+                        <label for="woman">女性</label> 
+
+                        <input type="radio" name="sex" id="secret"  value="sex"/>
+                        <label for="secret">内緒（^・^）</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <p class="label">現在抱いている高専へのイメージはどれですか？</p>
+                    <div class="inputs">
+                        <input type="radio" name="anke-to" id="t1"  value="anke-to" required/>
+                        <label for="t1">とても良さそう！</label> 
+
+                        <input type="radio" name="anke-to" id="t2"  value="anke-to"/>
+                        <label for="t2">まぁ良さそう！</label> 
+
+                        <input type="radio" name="anke-to" id="t3"  value="anke-to"/>
+                        <label for="t3">普通かな～？</label> 
+
+                        <input type="radio" name="anke-to" id="t4"  value="anke-to"/>
+                        <label for="t4">ちょっと心配だな。</label> 
+
+                        <input type="radio" name="anke-to" id="t5"  value="anke-to"/>
+                        <label for="t5">本当に大丈夫かな？</label> 
+                    </div>
+                </div>
+
+                <div class="item">
+                    <label class="label">自由記述</label>
+                    <textarea class="inputs" placeholder="高専交流所を楽しんで使ってみます！"></textarea>
+                </div>
+
+                <div class="butto-area">
+                    <input type="submit" value="登録確定">
+                </div>
+                
+            </form> 
+        </div>
+    </body>
+</html>

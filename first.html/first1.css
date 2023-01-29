@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url("../../images/sample02.jpg");
+}
+
+h1{
+    font-size: 65px;
+    color: black;
+    text-align: center;
+    position: absolute;/*絶対位置*/
+    top: 0;/*一番上に固定*/
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+}
+.button-area .contents{
+    margin-top: 250px;
+}
+
+.button-area #box_0 a{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.button-area #box_0 a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.button-area #box_1 a{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.button-area #box_1 a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.button-area #box_2 a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.button-area #box_3 a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.button-area #box_4 a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.button-area #box_2 a{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.button-area #box_3 a{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.button-area #box_4 a{
+    padding: 17px 30px;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.contents{
+    text-align: center;
+    margin-top: 200px;
+}
+.contents1{
+    text-align: center;
+}
+#box_0{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#box_1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#box_2{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+#box_3{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+#box_4{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: center;
+    color:aliceblue ;
+    text-decoration: underline;
+    text-decoration-color:aliceblue;
+}
+
+/*.contents{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 20px;
+}
+
+.nav{
+    width: calc(100% / 5);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav1{
+    width: calc(100% / 5);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 30px;
+}*/
+
+span{
+    color:blue;
+}

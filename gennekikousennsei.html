@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="registration" content="アカウント登録をしよう">
+        <title>アカウント登録</title>
+        <link href="gennekikousennsei.css"  rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="contact-form">
+            <p class="title">匿名アカウント登録</p>
+
+            <form action="" method="post">
+                <div class="item">
+                    <label class="label">ニックネーム:</label>
+                    <input type="text" class="inputs" placeholder="高専の異端児カッチー" name="name" required/>
+                </div>
+
+                <div class="item">
+                    <label class="label">所属高専名:</label>
+                    <input type="text" class="inputs" placeholder="仙台高専広瀬キャンパス" name="syozoku1" required/>
+                </div>
+
+                <div class="item">
+                    <p class="label">学年:</p>
+                    <div class="inputs">
+                        <input type="radio" name="gakunenn" id="1"  value="gakunenn" required/>
+                        <label for="1">1年</label> <!--label forは文字を押しても黒ポチがなる (id=forの場合)-->
+
+                        <input type="radio" name="gakunenn" id="2" value="gakunenn" />
+                        <label for="2">2年</label>
+
+                        <input type="radio" name="gakunenn" id="3" value="gakunenn"/>
+                        <label for="3">3年</label>
+
+                        <input type="radio" name="gakunenn" id="4" value="gakunenn"/>
+                        <label for="4">4年</label>
+
+                        <input type="radio" name="gakunenn" id="5" value="gakunenn"/>
+                        <label for="5">5年</label>
+
+                        <input type="radio" name="gakunenn" id="6" value="gakunenn"/>
+                        <label for="6">専攻科1年</label>
+
+                        <input type="radio" name="gakunenn" id="7" value="gakunenn"/>
+                        <label for="7">専攻科2年</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <label class="label">
+                        
+                        コース名　希望コース名:</label>
+                    <input type="text" class="inputs" placeholder="情報システムコース" name="syozoku2" required/>
+                </div>
+
+                <div class="item">
+                    <p class="label">性別:</p>
+                    <div class="inputs">
+                        <input type="radio" name="sex" id="man"  value="sex" required/>
+                        <label for="man">男性</label> 
+
+                        <input type="radio" name="sex" id="woman"  value="sex"/>
+                        <label for="woman">女性</label> 
+
+                        <input type="radio" name="sex" id="secret"  value="sex"/>
+                        <label for="secret">内緒（^・^）</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <p class="label">高専に入学してよかったですか？？</p>
+                    <div class="inputs">
+                        <input type="radio" name="anke-to" id="t1"  value="anke-to" required/>
+                        <label for="t1">とてもよかった！</label> 
+
+                        <input type="radio" name="anke-to" id="t2"  value="anke-to"/>
+                        <label for="t2">まぁよかった！</label> 
+
+                        <input type="radio" name="anke-to" id="t3"  value="anke-to"/>
+                        <label for="t3">普通</label> 
+
+                        <input type="radio" name="anke-to" id="t4"  value="anke-to"/>
+                        <label for="t4">悪かった</label> 
+
+                        <input type="radio" name="anke-to" id="t5"  value="anke-to"/>
+                        <label for="t5">最悪</label> 
+                    </div>
+                </div>
+
+                <div class="butto-area">
+                    <input type="submit" value="登録確定">
+                </div>
+                
+            </form> 
+        </div>
+    </body>
+</html>

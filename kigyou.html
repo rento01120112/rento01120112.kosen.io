@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="registration" content="アカウント登録をしよう">
+        <title>ようこそ！企業の方々</title>
+        <link href="kigyou.css"  rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="contact-form">
+            <p class="title">匿名アカウント登録</p>
+
+            <form action="" method="post">
+                <div class="item">
+                    <label class="label">ニックネーム:</label>
+                    <input type="text" class="inputs" placeholder="カッチー" name="name" required/>
+                </div>
+
+
+                <div class="item">
+                    <p class="label">性別:</p>
+                    <div class="inputs">
+                        <input type="radio" name="sex" id="man"  value="sex" required/>
+                        <label for="man">男性</label> 
+
+                        <input type="radio" name="sex" id="woman"  value="sex"/>
+                        <label for="woman">女性</label> 
+
+                        <input type="radio" name="sex" id="secret"  value="sex"/>
+                        <label for="secret">シークレット</label>
+                    </div>
+                </div>
+
+                <!--<div class="item">
+                    <p class="label">高専に入学してよかったですか？？</p>
+                    <div class="inputs">
+                        <input type="radio" name="anke-to" id="t1"  value="anke-to" required/>
+                        <label for="t1">とてもよかった！</label> 
+
+                        <input type="radio" name="anke-to" id="t2"  value="anke-to"/>
+                        <label for="t2">まぁよかった！</label> 
+
+                        <input type="radio" name="anke-to" id="t3"  value="anke-to"/>
+                        <label for="t3">普通</label> 
+
+                        <input type="radio" name="anke-to" id="t4"  value="anke-to"/>
+                        <label for="t4">悪かった</label> 
+
+                        <input type="radio" name="anke-to" id="t5"  value="anke-to"/>
+                        <label for="t5">最悪</label> 
+                    </div>
+                </div>-->
+
+                <div class="item">
+                    <p class="label">どの地方の方ですか？</p>
+                    <div class="inputs">
+                        <input type="radio" name="pr" id="man"  value="pr" required/>
+                        <label for="man">北海道</label> 
+
+                        <input type="radio" name="pr" id="secret"  value="pr"/>
+                        <label for="secret">東北</label>
+
+                        <input type="radio" name="pr" id="woman"  value="pr"/>
+                        <label for="woman">関東</label> 
+
+                        <input type="radio" name="pr" id="secret"  value="pr"/>
+                        <label for="secret">中部</label>
+
+                        <input type="radio" name="pr" id="secret"  value="pr"/>
+                        <label for="secret">近畿</label>
+
+                        <input type="radio" name="pr" id="secret"  value="pr"/>
+                        <label for="secret">中国</label>
+
+                        <input type="radio" name="pr" id="secret"  value="pr"/>
+                        <label for="secret">四国</label>
+
+                        <input type="radio" name="pr" id="secret"  value="pr"/>
+                        <label for="secret">九州</label>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <label class="label">どういう人材を欲していますか？</label>
+                    <textarea class="inputs" placeholder="blenderができてCG技術を扱うことが出来る学生"></textarea>
+                </div>
+
+
+                <div class="butto-area">
+                    <input type="submit" value="登録確定">
+                </div>
+                
+            </form> 
+        </div>
+    </body>
+</html>
